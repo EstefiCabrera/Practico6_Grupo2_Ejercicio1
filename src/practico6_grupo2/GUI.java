@@ -303,6 +303,7 @@ public class GUI extends javax.swing.JFrame {
     }
     
     private void llenarTabla(){
+        modelo.setRowCount(0);
         Categoria selec=(Categoria)jcbCategoria.getSelectedItem();
         
         if(selec!=null){
